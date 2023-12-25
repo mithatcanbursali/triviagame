@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Raleway",sans-serif;
+    font-size:20px;
+    text-shadow: 0 0 5px #000000;
+    background: rgb(153,0,51);
+    background: linear-gradient(90deg, rgba(153,0,51,1) 0%, rgba(102,102,51,1) 100%, rgba(204,204,153,1) 100%);    color: white;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 30px;
+
+}
+
+
+
+#main-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#score{
+    padding-bottom: 5vh;
+}
+
+#score-id{
+    font-size: 26px;
+}
+#question-screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 10vw;
+    border: 1px solid black;
+    background-color: white;
+    text-shadow: 0 0 0px #000000;
+    color: black;
+    margin-bottom: 5vh;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 5vh;
+}
+
+.button{
+    width: 30vw;
+    height: 6vw;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 25px;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+      
+}
+
+.button:hover{
+    background-color: lightgray;
+}
+
+.button:active{
+    background-color: gray;
+}
+
+.next{
+    display: none;
+}
+
+.end{
+    display: none;
+}
+
+.visibility{
+    display: block;
+}
+
+.wrong-answer{
+    background-color: rgba(207, 21, 21, 0.794);
+    color: white;
+}
+
+.wrong-answer:hover{
+    background-color: rgba(207, 21, 21, 0.794);
+}
+
+.wrong-answer:active{
+    background-color: rgba(207, 21, 21, 0.794);
+}
+
+.true-answer{
+    background-color: rgb(14, 110, 14);
+    color: white;
+}
+
+.true-answer:hover{
+    background-color: rgb(14, 110, 14);
+}
+
+.true-answer:active{
+    background-color: rgb(14, 110, 14);
+}
+
